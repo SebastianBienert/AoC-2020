@@ -6,7 +6,7 @@ namespace AoC2020.CSHarp
     {
         static async System.Threading.Tasks.Task Main(string[] args)
         {
-            var day = new Day3();
+            var day = new Day4();
             var dayResult = await day.SolveSecondAsync();
             Console.WriteLine(dayResult);
             Console.ReadKey();
